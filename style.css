@@ -9,6 +9,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header-container img {
@@ -29,17 +30,19 @@ body {
 .main-title {
   display: flex;
   justify-content: center;
+  text-align: center;
   border: 3px solid black;
   padding: 14px;
   margin: 10px 10px 10px 30px;
   min-width: 30%;
-  max-width: 30%;
+  max-width: 40%;
   transform: skewX(-32deg);
 }
 
 .recipes {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 10px;
 }
 
