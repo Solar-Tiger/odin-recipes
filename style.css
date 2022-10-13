@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #925800c3;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container img {
+  border: 4px solid black;
+  border-radius: 10%;
+  padding: 0px;
+  width: 450px;
+  height: 235px;
+}
+
+.title-container {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 65%;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 14px;
+  margin: 10px 10px 10px 30px;
+  min-width: 30%;
+  max-width: 30%;
+  transform: skewX(-32deg);
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.recipe img {
+  height: 350px;
+}
+
+.recipe:nth-child(2) {
+  margin-top: 3.5%;
+}
+
+.recipe:nth-child(3) {
+  margin-top: 7%;
+}
