@@ -74,6 +74,7 @@ body p {
   display: flex;
   flex-direction: column;
   width: 250px;
+  height: 360px;
 }
 
 .recipe {
@@ -92,16 +93,16 @@ body p {
 }
 
 #food1 {
-  top: 53%;
+  top: 68%;
 }
 
 #food2 {
-  top: 60%;
+  top: 69%;
   width: 90%;
 }
 
 #food3 {
-  top: 73%;
+  top: 78%;
 }
 
 .recipe img {
