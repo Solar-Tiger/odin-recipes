@@ -4,6 +4,21 @@
 
 body {
   background-color: #925800c3;
+  margin: 50px;
+}
+
+body h1 {
+  font-family: 'Indie Flower', Georgia, sans-serif;
+}
+
+body h2 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+body p,
+body h2 {
+  font-family: 'Acme', Verdana, sans-serif;
 }
 
 .header-container {
@@ -16,7 +31,7 @@ body {
   border: 4px solid black;
   border-radius: 10%;
   padding: 0px;
-  width: 450px;
+  width: 475px;
   height: 235px;
 }
 
@@ -28,11 +43,12 @@ body {
 }
 
 .main-title {
+  font-size: 42px;
   display: flex;
   justify-content: center;
   text-align: center;
   border: 3px solid black;
-  padding: 14px;
+  padding: 8px 14px;
   margin: 10px 10px 10px 30px;
   min-width: 30%;
   max-width: 40%;
