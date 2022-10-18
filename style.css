@@ -132,8 +132,7 @@ li {
 .recipe-title {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  padding-top: 0px;
+  padding: 0px 25px 25px 25px;
 }
 
 .ingredients-list {
